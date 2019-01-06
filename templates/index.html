@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>TDI Milestone Project</title>
+    <link href="//cdn.pydata.org/bokeh/release/bokeh-1.0.3.min.css"
+	  rel="stylesheet" type="text/css">
+    <script src="//cdn.pydata.org/bokeh/release/bokeh-1.0.3.min.js"></script>
+    {{ script_1|indent(4)|safe }}
+
+  </head>
+
+  <body>
+
+    <div class="input">
+      <form id='ticker' method='post' action='index' >
+	<span id="text_show">Ticker symbol:</span> 
+	<input type='text' name='tckr_symbl' /> <br />  <br /> 
+	<input type='submit' value='submit' />
+      </form>
+    </div>
+
+    {{ script_2|indent(4)|safe }}
+    
+  </body>
+</html>
