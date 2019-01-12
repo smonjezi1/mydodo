@@ -10,7 +10,7 @@ from bokeh.models import ColumnDataSource, DatetimeTickFormatter, Range1d
 app = Flask(__name__)
 
 #Quandle API key
-mykey = "g2ZSw2rSxDcW9uvY-96h"
+mykey = "MyKey"
 
 #data from the begining of 2018 instead of a month ago because quandle is not updated after April
 quandl_url_left = "https://www.quandl.com/api/v3/datasets/WIKI/"
